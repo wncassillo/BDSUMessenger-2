@@ -40,7 +40,7 @@ def enviar_email(email_alvo, tipo_sangue):
 def ativar_envio(tipo_sangue):
     try:
         con = mysql.connector.connect(
-            host='localhost', database='bd_sangue', user='root', password='PinkDarkchylde.1412')
+            host='localhost', database='bd_sangue', user='root', password='abc')
 
         if con.is_connected():
             db_info = con.get_server_info()
